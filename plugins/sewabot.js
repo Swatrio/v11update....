@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   let pepe = 'https://telegra.ph/file/2e2eb7d093fec08fd00d4.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
 
-  let aine = '6289654360447@s.whatsapp.net'
+  let aine = '6288213793536@s.whatsapp.net'
   let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let c = pickRandom([a, b])
@@ -16,7 +16,7 @@ let handler = async (m, { conn }) => {
 Rp. 15.000 Dana
 Rp. 15.000 Pulsa
 
-2. Premium / 30 Hari
+2. Premium / Perma
 Rp. 10.000 Dana
 Rp. 10.000 Pulsa
 
@@ -36,7 +36,7 @@ wa.me/${owner[0]}
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6289654360447@s.whatsapp.net`
+  businessOwnerJid: `6288213793536@s.whatsapp.net`
   },
   footerText: 'https://aiinne.github.io',
   }},{})
