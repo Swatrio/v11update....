@@ -1,7 +1,7 @@
 let fs = require('fs') 
 let chalk = require('chalk')
 
-global.owner = Satrio
+global.owner = Sattzzzz
   ['6288213793536'],
   ['6288213793536'],
   ['6288213793536', 'Owner', true]
